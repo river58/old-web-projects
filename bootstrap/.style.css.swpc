@@ -1,0 +1,57 @@
+/* Basic styles */
+body{
+    background-color: #D5D5D5;
+}
+
+h1 {
+    color: #9099A2; 
+}
+
+div.col-sm-6 h1{
+    color:#FFFFFF !important;
+}
+
+h2, h3, h4, h5, h6{
+    color: #6D7993; /* Accent */
+}
+
+a{
+    color:inherit;
+}
+
+a:hover{
+    color:#6D7993;
+}
+
+
+/* Homepage styles*/
+.cover{
+    height:300px;
+    margin-top:25%;
+    background: url('http://www.publicdomainpictures.net/pictures/140000/t2/ark-texture-impasto-color-swirl-.jpg');
+    background-size: cover;
+}
+h1.front-logo{
+  color: white;
+  margin:50px;
+}
+div.cover .col-sm-2{
+    height:200px;
+    margin:50px 0px;
+}
+.front-nav-1{
+  background-color:#64271b;
+}
+.front-nav-2{
+  background-color:#354243;
+}
+.front-nav-3{
+  background-color:#80598d;
+}
+.tth{
+  background-color:#96858F;
+}
+div.row div.col-sm-2 img.img-rounded{
+    width:200px;
+    height:200px;
+}

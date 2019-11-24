@@ -1,0 +1,33 @@
+body.mainthing{
+  background: #151515 url('https://pls.dont-steal-my-me.me/pics/ngr.png') no-repeat;
+  background-size:cover;
+  background-position: 0 59px;
+}
+body{
+  background-color:#151515;
+}
+body,html{
+    height:100%;
+}
+h1.meme {
+  color: white;
+  text-align: right;
+    text-shadow:
+    -3px -3px 0 #000,
+     0   -3px 0 #000,
+     3px -3px 0 #000,
+     3px  0   0 #000,
+     3px  3px 0 #000,
+     0    3px 0 #000,
+    -3px  3px 0 #000,
+    -3px  0   0 #000;
+}
+body{
+  padding-top:100px;
+}
+.img-responsive { display: inline-block; }
+.image-center {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}

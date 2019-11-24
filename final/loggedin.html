@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css.css" type="text/css">
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Orbitron&text=0123456789:AMP' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="arch">
+        <img class="arch" src="https://pls.dont-steal-my-me.me/CA/final/pwo.svg"></img>
+    </div>
+    <img class="overlay logo animated jello" src="https://pls.dont-steal-my-me.me/CA/final/grilacc.png" alt="Grilacc Logo"></img>
+    <a href="#" class="btn btn-primary settings" onclick="shid()"><i class="fas fa-cogs"></i> Settings</a>
+    <a href="index.html" class="btn btn-primary login"><i class="fas fa-sign-out-alt"></i> Log-out</a>
+</div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <h1>
+         <i class="fas fa-sun"></i> Weather
+        </h1>
+        <h2>
+          39° Cloudy <i class="fas fa-cloud text-white"></i>
+        </h2>
+      </div>
+      <div class="col-sm-4 text-center">
+        <h1>
+         <i class="fas fa-school"></i> School
+        </h1>
+        <h2>
+          In Session <i class="fas fa-door-open"></i>
+        </h2>
+      </div>
+      <div class="col-sm-4 text-center">
+        <h1>
+         <i class="far fa-clock"></i> Time
+        </h1>
+        <div style="font-family: 'Orbitron', sans-serif;"><h2 id="timeclock"></h2></div>
+      </div>
+    </div>
+    <br/>
+    <br/>
+    <div class="row">
+      <div class="col-sm-4">
+       <h1 class="text-center">
+         Politics
+       </h1>
+      <script src='https://redditjs.com/subreddit.js' data-subreddit='politics' data-theme='dark'></script>
+      </div>
+      <div class="col-sm-4">
+      <h1 class="text-center">
+         News
+       </h1>
+      <script src='https://redditjs.com/subreddit.js' data-subreddit='worldnews' data-theme='dark'></script>
+      </div>
+      <div class="col-sm-4">
+      <h1 class="text-center">
+         Memes
+       </h1>
+      <script src='https://redditjs.com/subreddit.js' data-subreddit='dankmemes' data-theme='dark'></script>
+      </div>
+    </div>
+  </div>
+  <div id="seting">
+    <div class="container sbox text-center">
+      <h1>
+        Settings
+      </h1>
+      <form>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" checked>
+    <label class="form-check-label">Weather</label><br/>
+    <input type="checkbox" class="form-check-input" checked>
+    <label class="form-check-label">School Closings</label><br/>
+    <input type="checkbox" class="form-check-input" checked>
+    <label class="form-check-label">Current Time</label><br/>
+    <input type="checkbox" class="form-check-input" checked>
+    <label class="form-check-label">Reddit: r/Politics</label><br/>
+    <input type="checkbox" class="form-check-input" checked>
+    <label class="form-check-label">Reddit: r/worldnews</label><br/>
+    <input type="checkbox" class="form-check-input" checked>
+    <label class="form-check-label">Reddit: r/dankmemes</label><br/>
+    <input type="checkbox" class="form-check-input">
+    <label class="form-check-label">Facebook</label><br/>
+    <input type="checkbox" class="form-check-input">
+    <label class="form-check-label">Twitter</label><br/>
+  </div>
+  <button onclick="shid()" class="btn btn-primary">Save</button>
+</form>
+    </div>
+    <br/>
+  </div>
+</div>
+<br/>
+    <footer class="text-center" id="footer">
+     <div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p class="h6">&copy 2018 Anthony King-Marcoux</p>
+				</div>
+				</hr>
+			</div>	
+		</div>
+    </footer>
+<script style="visibility:hidden;">
+function updateClock() {
+    document.getElementById('timeclock').innerHTML = new Date().toLocaleTimeString().replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, "$1$3");
+    // call this function again in 1000ms
+    setTimeout(updateClock, 1000);
+}
+function shid() {
+  var x = document.getElementById("seting");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+updateClock();
+</script>
+</body>
+
+</html>

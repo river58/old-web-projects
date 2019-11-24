@@ -1,0 +1,38 @@
+@font-face{
+	font-family:murder;
+	src:url("murder.otf");
+}
+h1{
+	font-family:murder;
+	background: -webkit-linear-gradient(#480000, #8A0707, #860000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size:100px;
+}
+html{
+}
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+ width:100%;
+ height:100%;
+  display: block;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  filter: blur(10px) sepia() contrast(50%) saturate(1000%) hue-rotate(310deg);
+}
+body{
+	background-color:rgba(0,0,0,0);
+}
+.jtrn{
+	background: rgba(46,158,158,0.75);
+	border-radius:0 0 50px 50px;
+}
+.br20{
+	border-radius:20px;
+}
+.bgg1{
+	background:rgba(255,0,0,0.5);
+}
